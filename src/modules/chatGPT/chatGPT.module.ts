@@ -1,9 +1,11 @@
 import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+
 import { ChatGPTController } from './chatGPT.controller';
 import { ChatGPTService } from './chatGPT.service';
 import { importDynamic } from '@/utils/module.util';
 import { GPT_SESSION, API_REVERSE_PROXY_URL, GPT_KEY } from '@/app.config';
-
+import { ChatGPT } from './chatGPT.entity';
 
 export const ChatGPTUnofficialProvider = {
   provide: 'ChatGPTUnofficial',
@@ -36,7 +38,7 @@ export const ChatGPTOfficialProvider = {
 }
 
 @Module({
-  imports: [],
+  imports: [TypeOrmModule.forFeature([ChatGPT])],
   controllers: [ChatGPTController],
   providers: [ChatGPTService, ChatGPTUnofficialProvider, ChatGPTOfficialProvider],
 })
