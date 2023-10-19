@@ -41,7 +41,7 @@
     ```
 
 ## 使用
-- 默认使用web版本 [chatgptunofficialproxyapi](https://github.com/transitive-bullshit/chatgpt-api#usage---chatgptunofficialproxyapi) ，通过 [@pengzhile](https://github.com/pengzhile) 提供的链接代理请求，所以你的请求信息可能被第三方看到
+- 默认使用web版本 [chatgptunofficialproxyapi](https://github.com/transitive-bullshit/chatgpt-api#usage---chatgptunofficialproxyapi) ，通过 [@zhile-io](https://github.com/zhile-io/pandora) 提供的链接代理请求，所以你的请求信息可能被第三方看到
 - 请求前加/official可使用官方版本 [chatgptapi](https://github.com/transitive-bullshit/chatgpt-api#usage---chatgptapi)
 - 请求前加/reset可重置web版本的聊天上下文
 
