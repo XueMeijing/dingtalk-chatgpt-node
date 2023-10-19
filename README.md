@@ -5,7 +5,7 @@
 1. 创建钉钉机器人[如何创建机器人](https://juejin.cn/post/7208885488802922556)
 2. 有公网IP的服务器
 3. node v18.16.0 版本
-4. 有chatgpt账号或者session(此项目 [pandora](https://github.com/pengzhile/pandora) 有免费体验账号 https://chat-shared1.zhile.io/shared.html)
+4. 有chatgpt账号或者session(此项目 [pandora](https://github.com/zhile-io/pandora) 有免费体验账号 https://chat-shared1.zhile.io/shared.html)
 5. 使用官方key模式需要有chatgpt key(付费，需要绑定银行卡，可以用USDT买虚拟信用卡 Depay ，绑卡换美国节点台湾节点等 [Depay申请教程](https://blog.aiservices.tech/40.html))，需要外网服务器
 
 ## 快速开始
